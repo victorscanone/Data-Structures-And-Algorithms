@@ -3,10 +3,6 @@ import java.util.ArrayList;
 public class Pilha {
     private ArrayList<String> pilha = new ArrayList<>();
 
-    public Pilha(ArrayList<String> pilha) {
-        this.pilha = pilha;
-    }
-
     public ArrayList<String> getPilha() {
         return pilha;
     }
